@@ -24,6 +24,7 @@ public class webOrdersTask {
 		}
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Logout")).click();
+		driver.quit();
 	}
 
 }
